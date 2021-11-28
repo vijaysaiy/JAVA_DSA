@@ -17,6 +17,6 @@ public class nthFibonacci {
             b = sum;
             count++;
         }
-        System.out.println(sum);
+        System.out.println(n+"th Fibonacci number is: "+ sum);
     }
 }
