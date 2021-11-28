@@ -1,4 +1,4 @@
-package com.vijay.practice;
+package com.vijay.practice.basics;
 
 import java.util.Scanner;
 
@@ -19,7 +19,11 @@ public class Calculator {
         }else if(op == '*'){
             System.out.println("Multiplication is: " +(num1*num2));
         }else if(op == '/'){
-            System.out.println("Division is: " +(num1/num2));
+            if(num2 != 0) {
+                System.out.println("Division is: " + (num1 / num2));
+            }else{
+                System.out.println("Infinite");
+            }
         }else{
             System.out.println("Invalid operation");
         }

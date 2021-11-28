@@ -1,4 +1,4 @@
-package com.vijay.practice;
+package com.vijay.practice.basics;
 
 import java.util.Scanner;
 
@@ -9,7 +9,9 @@ public class LargestOfTwo {
         System.out.print("Enter a number: ");
         int num1 = input.nextInt();
         System.out.print("Enter another number: ");
+
         int num2 = input.nextInt();
+
         if(num1 == num2){
             System.out.println("Both are equal");
         }

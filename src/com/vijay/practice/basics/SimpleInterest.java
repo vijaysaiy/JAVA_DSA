@@ -1,4 +1,4 @@
-package com.vijay.practice;
+package com.vijay.practice.basics;
 
 import java.util.Scanner;
 
