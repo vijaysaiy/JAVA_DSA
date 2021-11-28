@@ -9,7 +9,7 @@ public class SumWhenInterrupted {
         int num;
         int sum = 0;
         while((num = input.nextInt()) != 0){
-            sum = sum+ (num);
+            sum = sum + num;
         }
         System.out.println("The sum of numbers: " +sum);
     }
