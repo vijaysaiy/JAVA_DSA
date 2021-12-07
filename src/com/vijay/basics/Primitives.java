@@ -9,7 +9,7 @@ package com.vijay.basics;
     ->so if you want to save it as long,add l or L at the end
 ---------Non Primitive Data Types--------
 * Data types which can be broken down further
-    Ex:A String can be broken down into characters
+    Ex:A StringExample can be broken down into characters
 -----------Literals and Identifiers-------
 * int a = 10;
 ->Here 10 is literal and a is identifier

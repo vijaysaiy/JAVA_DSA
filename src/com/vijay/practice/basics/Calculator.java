@@ -12,20 +12,12 @@ public class Calculator {
         int num2 = input.nextInt();
         System.out.println("Enter the operation +,-,*,/");
         char op = input.next().charAt(0);
-        if(op == '+'){
-            System.out.println("Sum is: " +(num1+num2));
-        }else if(op == '-'){
-            System.out.println("Difference is: " +(num1-num2));
-        }else if(op == '*'){
-            System.out.println("Multiplication is: " +(num1*num2));
-        }else if(op == '/'){
-            if(num2 != 0) {
-                System.out.println("Division is: " + (num1 / num2));
-            }else{
-                System.out.println("Infinite");
-            }
-        }else{
-            System.out.println("Invalid operation");
+        switch (op) {
+            case '+' -> System.out.println("Sum is: " + (num1 + num2));
+            case '-' -> System.out.println("Difference is: " + (num1 - num2));
+            case '*' -> System.out.println("Multiplication is: " + (num1 * num2));
+            case '/' -> System.out.println(num2 != 0 ? "Division is: " + (num1 / num2) : "Infinite");
+            default -> System.out.println("Invalid operation");
         }
 
     }
