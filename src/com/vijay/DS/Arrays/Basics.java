@@ -1,4 +1,2 @@
-package com.vijay.DS.Arrays;
-
-public class Basics {
+package com.vijay.DS.Arrays;public class Basics {
 }
