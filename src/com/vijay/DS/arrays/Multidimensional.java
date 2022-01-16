@@ -1,4 +1,4 @@
-package com.vijay.DS.Arrays;
+package com.vijay.DS.arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
