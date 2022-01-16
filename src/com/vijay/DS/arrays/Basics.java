@@ -1,4 +1,4 @@
-package com.vijay.DS.Arrays;
+package com.vijay.DS.arrays;
 
 public class Basics {
     public static void main(String[] args) {

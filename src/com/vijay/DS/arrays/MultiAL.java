@@ -1,4 +1,4 @@
-package com.vijay.DS.Arrays;
+package com.vijay.DS.arrays;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -11,7 +11,7 @@ public class MultiAL {
 
         //initialisation
         for(int i =0;i<3;i++){
-            list.add(new ArrayList<>());:
+            list.add(new ArrayList<>());
         }
 
         //add elements

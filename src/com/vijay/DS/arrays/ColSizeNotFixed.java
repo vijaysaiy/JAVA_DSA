@@ -1,6 +1,4 @@
-package com.vijay.DS.Arrays;
-
-import java.util.Arrays;
+package com.vijay.DS.arrays;
 
 public class ColSizeNotFixed {
     public static void main(String[] args) {
