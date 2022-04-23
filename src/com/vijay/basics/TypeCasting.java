@@ -6,10 +6,11 @@ public class TypeCasting {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         /*
-        *int can be entered because int is compatible with float(int < float)
-        *this is automatic type conversion
-        *but vice versa is not possible
-        *
+
+            *int can be entered because int is compatible with float(int < float)
+            *this is automatic type conversion
+            *but vice versa is not possible
+
         */
 //        float num = input.nextFloat();
 //        System.out.println(num);

@@ -21,5 +21,6 @@ public class Conditions {
            salary += 1000;
        }
         System.out.println("Salary with bonus is: "+salary );
+        in.close();
     }
 }

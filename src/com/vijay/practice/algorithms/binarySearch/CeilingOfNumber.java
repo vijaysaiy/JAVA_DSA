@@ -3,7 +3,7 @@ package com.vijay.practice.algorithms.binarySearch;
 public class CeilingOfNumber {
     public static void main(String[] args){
         int[] arr = {2,3,5,9,14,16,18};
-        int target = 19;
+        int target = 15;
         int ans = ceiling(arr,target);
         System.out.print(ans);
     }
