@@ -13,7 +13,7 @@ public class BinarySearch {
 
         while( start <= end ){
 
-            //find the mid value
+            // find the mid value
             // mid = (s + e)/2 might exceed int size
 
             int mid = start + (end - start)/2;
